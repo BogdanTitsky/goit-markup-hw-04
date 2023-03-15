@@ -14,7 +14,7 @@
 /* ?----------------------GENERAL---------------------- */
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455;
+    color: var(--color-slate);
     margin: 0;
 }
 
@@ -328,11 +328,56 @@ img {
     height: 16px;
 }
 
+/* ?----------------------CUSTOMERS---------------------- */
+
+.customers {
+    margin: 120px 0;
+}
+
+.customers-title {
+    margin-bottom: 72px;
+    color: var(--color-navy-blue);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+}
+
+.customers-list {
+    display: flex;
+    gap: 24px;
+}
+
+.customers-list-item {
+    width: 168px;
+    height: 88px;
+    padding: 16px 32px;
+
+    border: 1px solid var(--color-light-slate);
+    border-radius: 4px;
+    fill: var(--color-light-slate);
+}
+
+.customers-list-item:hover {
+    fill: var(--color-ocean);
+    border-color: var(--color-ocean);
+}
+
+.customers-list-item-icon {
+    width: 104px;
+    height: 56px;
+}
+
 /* ?----------------------FOOTER---------------------- */
 
 .footer {
     background-color: var(--color-navy-blue);
     padding: 100px 0;
+}
+
+.footer-container {
+    display: flex;
 }
 
 .logo-footer {
