@@ -197,6 +197,11 @@ img {
     width: 264px;
 }
 
+.strategy-list-item-icon {
+    width: 64px;
+    height: 64px;
+}
+
 .strategy-list-item-title {
     margin-bottom: 8px;
     font-size: 20px;
