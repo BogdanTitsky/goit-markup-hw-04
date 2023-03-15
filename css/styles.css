@@ -197,13 +197,21 @@ img {
     width: 264px;
 }
 
+.strategy-list-item-icon-container {
+    background-color: var(--color-cloud);
+    padding: 24px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .strategy-list-item-icon {
     width: 64px;
     height: 64px;
 }
 
 .strategy-list-item-title {
-    margin-bottom: 8px;
+    margin: 8px 0;
     font-size: 20px;
     color: var(--color-navy-blue);
 }
