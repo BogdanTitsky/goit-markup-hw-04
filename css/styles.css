@@ -378,6 +378,7 @@ img {
 
 .footer-container {
     display: flex;
+    gap: 120px;
 }
 
 .logo-footer {
@@ -402,6 +403,44 @@ img {
 
 .logo-sufix-footer {
     color: var(--color-cloud);
+}
+
+.footer-social-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+
+    margin-bottom: 16px;
+}
+
+.footer-social-list-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-social-link {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    fill: var(--color-cloud);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social-link:hover {
+    background-color: var(--color-green);
+}
+
+.footer-social-link-icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--color-cloud);
 }
 
 /* ?----------------------PORTFOLIO---------------------- */
