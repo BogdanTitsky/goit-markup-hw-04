@@ -296,6 +296,36 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-slate);
+
+    margin-bottom: 8px;
+}
+
+/** Links */
+
+.team-list-item-wrapper-links {
+    display: flex;
+    gap: 24px;
+}
+
+.team-list-link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    background-color: var(--color-iris);
+    border-radius: 50%;
+    fill: var(--color-cloud);
+}
+
+.team-list-link:hover {
+    background-color: var(--color-ocean);
+}
+
+.team-list-link-icon {
+    width: 16px;
+    height: 16px;
 }
 
 /* ?----------------------FOOTER---------------------- */
