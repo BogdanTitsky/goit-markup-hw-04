@@ -208,6 +208,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 4px;
 }
 
 .strategy-list-item-icon {
@@ -331,7 +332,7 @@ img {
 /* ?----------------------CUSTOMERS---------------------- */
 
 .customers {
-    margin: 120px 0;
+    padding: 120px 0;
 }
 
 .customers-title {
@@ -349,17 +350,19 @@ img {
     gap: 24px;
 }
 
-.customers-list-item {
+.customers-list-item-link {
     width: 168px;
     height: 88px;
-    padding: 16px 32px;
-
     border: 1px solid var(--color-light-slate);
     border-radius: 4px;
     fill: var(--color-light-slate);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.customers-list-item:hover {
+.customers-list-item-link:is(:hover, :focus) {
     fill: var(--color-ocean);
     border-color: var(--color-ocean);
 }
@@ -494,7 +497,11 @@ img {
     width: calc((100% - 2 * 24px) / 3);
 }
 
-.portfolio-list-item:is(:hover, :focus) {
+.portfolio-list-item-link {
+    display: block;
+}
+
+.portfolio-list-item-link:is(:hover, :focus) {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
